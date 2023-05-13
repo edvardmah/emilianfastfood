@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #FFFEFC;
+}
+
+.header{
+    margin-bottom: 200px;
+}
+
+/*Bara de navigare*/
+.nav_bar{
+    height: 177px;
+    width: 100%;
+    display: flex;
+}
+
+ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*Logou denumirea la restaurant din bara de navigare*/
+
+.logo_nav{
+    height: 25px;
+}
+
+.logo_text_nav{
+    font-size: 22px;
+    font-weight: 700;
+    color: #2E2E2E;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo_text_nav, .logo_nav {
+    margin: 3px;
+}
+
+/*Imaginea din centrul barei de navigare*/
+
+
+.center_img_nav {
+    height: 124px;
+    margin: 0px 352px;
+} 
+
+/*Sectiunea de acțiun(Bara de căutare, coșul de cumpărături și meniul)*/
+
+.button_action_site, .button_action_site{
+    margin: 20px;
+}
+
+/*Caseta cu informatie despre pagină*/
+
+.detail_box{
+    width: 58%;
+    justify-content: center;
+    display: flex;
+}
+
+.container_detail_box{
+    margin-top: 80px;
+}
+
+.name_site{
+    color: #FF9401;
+    font-family: emoji;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.subheader{
+    font-size: 96px;
+    font: bold;
+}
+
+.img_food{
+    height: 62px;
+    font: bolder;
+}
+
+.explore_button {
+    border: none;
+    display: flex;
+    height: 62px;
+    width: 243px;
+    background-color: #FF9401;
+    border-radius: 31px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+.secundar_text{
+    width: 497px;
+}
+
+.social_media{
+    margin-top: 50px;
+}
+
+.contact_social_media, .contact_social_media{
+    margin: 5px;
+}
+
+.food_image_header{
+    position: absolute;
+    margin-left: 1308px;
+}
+
+.product{
+    height: 533px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}   
+
+.title_page{
+    position: absolute;
+    margin-top: -70px;
+    font-size: 60px;
+}
+
+.container_box {
+    width: 77%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.product_box, .product_box{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    max-width: 233px;
+    height: 310px;
+    border: dashed #FF9401;
+    margin: 17px 17px;
+}
+
+.img_product {
+    height: 155px;
+    width: 220px;
+}
+
+.img_product_section {
+    justify-content: center;
+    display: flex;
+}
+
+.sub_text_cart {
+    margin-top: -15px;
+    justify-content: center;
+    display: flex;
+}
+
+.name_product {
+    font-size: 23px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.button_buy{
+    width: 200px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 90px;
+    background: black;
+}
+
+.button_buy:hover{
+    border: solid #FF9401;
+    transition: 1s;
+}
+
+.price_product{
+    color: red;
+}
+
+.footer{
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.content_footer{
+    width: 60%;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.map{
+    width: 500px;
+    height: 300px;
+    border-radius: 23px;
+}
+
+.grafic_work {
+    position: absolute;
+    width: 370px;
+    margin-left: 619px;
+}
+
+.top_grafic {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+.clock_work{
+    margin-left: 60px;
+}
+
+.container_grafic{
+    justify-content: center;
+    display: flex;
+}
+
+.text_grafic {
+    font-size: 26px;
+}
+
+.litle_grafic_work{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+.cart{
+    display: none;
+}
+
+.button_action_site{
+    border: none;
+    background: none;
+}
+
+.show_cart{
+    width: 432px;
+    height: 522px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    margin-left: 608px;
+    margin-top: 539px;
+    z-index: 1;
+    border-radius: 22px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    scroll-behavior: smooth;
+    overflow-x: auto;
+}
+
+.show_cart::-webkit-scrollbar {
+    display: none;
+}
+
+.add-to-cart{
+    border: none;
+    width: 200px;
+    height: 38px;
+    border-radius: 10px;
+    background: black;
+}
+
+.box_product_cart{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+.cart_img, .name_product_cart{
+    margin: 12px;
+}
+
+.cart-items {
+    margin-top: 27px;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 21px;
+}
+
+.cart_img{
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border-radius: 23px; 
+
+}
+
+@media screen and (max-width: 1024px) {
+    .center_img_nav {
+        height: 124px;
+        margin: 0px 225px;
+    } 
+    .food_image_header {
+        height: 449px;
+        position: absolute;
+        margin-left: 980px;
+    }
+
+    .footer {
+        width: 80%;
+        justify-content: center;
+        display: flex;
+        margin-top: 562px;
+        position: absolute;
+        margin-left: -120px;
+    }
+
+    .grafic_work{
+        margin-left: 575px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .center_img_nav {
+        height: 124px;
+        margin: 0px 112px;
+    } 
+
+    .food_image_header {
+        display: none;
+    }
+
+    .container_detail_box {
+        margin-top: 80px;
+        margin-left: 163px;
+    }
+
+    .footer {
+        width: 80%;
+        justify-content: center;
+        display: flex;
+        margin-top: 903px;
+        position: absolute;
+        margin-left: -88px;
+    }
+
+    .grafic_work{
+        margin-left: 360px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .center_img_nav {
+        height: 80px;
+        margin: 0px 2px;
+    }
+
+    .container_detail_box {
+        margin-top: 80px;
+        margin-left: 163px;
+    }
+
+    .subheader {
+        font-size: 60px;
+    }
+
+    .img_food{
+        height: 45px;
+    }
+
+    .secundar_text {
+        width: 340px;
+    }
+
+    .footer {
+        width: 80%;
+        justify-content: center;
+        display: flex;
+        margin-top: 2300px;
+        position: absolute;
+        margin-left: -42px;
+    }
+
+    .grafic_work{
+        display: none;
+    }
+
+    .map{
+        margin-top: 122px;
+        position: absolute;
+        width: 376px;
+    }
+
+    .litle_grafic_work {
+        display: block;
+        position: absolute;
+        text-align: center;
+        margin-left: 66px;
+        width: 251px;
+    }
+}
